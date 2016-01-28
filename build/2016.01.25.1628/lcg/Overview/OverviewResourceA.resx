@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>Account settings</value>
+  </data>
+  <data name="AdvertisingPerformance" xml:space="preserve">
+    <value>Advertising performance</value>
+  </data>
+  <data name="AfterPublish" xml:space="preserve">
+    <value>After you publish apps to the Store, this page will show you metrics on how your apps are doing, payout info, and more.</value>
+  </data>
+  <data name="AlreadyDone" xml:space="preserve">
+    <value>I've done this already</value>
+  </data>
+  <data name="AnalyticsEmpty" xml:space="preserve">
+    <value>After you publish an app, you’ll see analytics on this page.</value>
+  </data>
+  <data name="AnalyticsReportContent" xml:space="preserve">
+    <value>View detailed analytics for your apps in the Windows Dev Center dashboard.</value>
+  </data>
+  <data name="AnalyticsReportTitle" xml:space="preserve">
+    <value>Analytics report</value>
+  </data>
+  <data name="App" xml:space="preserve">
+    <value>App</value>
+  </data>
+  <data name="AppDevKnowledgeBase" xml:space="preserve">
+    <value>App development knowledge base</value>
+  </data>
+  <data name="AppStatus_AttentionNeeded" xml:space="preserve">
+    <value>Attention needed</value>
+  </data>
+  <data name="AppStatus_InProgress" xml:space="preserve">
+    <value>In progress</value>
+  </data>
+  <data name="AppStatus_InStore" xml:space="preserve">
+    <value>In the Store</value>
+  </data>
+  <data name="AppStatus_UpdateInProgress" xml:space="preserve">
+    <value>Update in progress</value>
+  </data>
+  <data name="AppStudioContent" xml:space="preserve">
+    <value>This free online app creation tool lets you easily build and publish Windows apps.</value>
+  </data>
+  <data name="AppStudioTitle" xml:space="preserve">
+    <value>App Studio</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CompanyDashboard" xml:space="preserve">
+    <value>{0} dashboard</value>
+    <comment>{0} is publisher name</comment>
+  </data>
+  <data name="CreateANewApp" xml:space="preserve">
+    <value>Create a new app</value>
+  </data>
+  <data name="CreateNewAppDescription" xml:space="preserve">
+    <value>The first step in publishing your app is to reserve its name.</value>
+  </data>
+  <data name="DashboardNavigation" xml:space="preserve">
+    <value>Dashboard navigation</value>
+  </data>
+  <data name="DevForBeginnersContent" xml:space="preserve">
+    <value>A video library that walks you through how to create a Windows 10 app on the Universal Windows Platform.</value>
+  </data>
+  <data name="DevForBeginnersTitle" xml:space="preserve">
+    <value>Windows 10 development for absolute beginners</value>
+  </data>
+  <data name="Dismiss" xml:space="preserve">
+    <value>Dismiss</value>
+  </data>
+  <data name="GoToRewards" xml:space="preserve">
+    <value>Go to rewards</value>
+  </data>
+  <data name="GuidanceForYou" xml:space="preserve">
+    <value>Guidance for you</value>
+  </data>
+  <data name="IsNotUseful" xml:space="preserve">
+    <value>Not useful</value>
+  </data>
+  <data name="LastModified" xml:space="preserve">
+    <value>Last modified</value>
+  </data>
+  <data name="LearnAboutDevCenterContent" xml:space="preserve">
+    <value>Explore the features that are available to you now that you’re a registered Dev Center developer.</value>
+  </data>
+  <data name="LearnAboutDevCenterTitle" xml:space="preserve">
+    <value>Learn about Dev Center</value>
+  </data>
+  <data name="LetsGetStarted" xml:space="preserve">
+    <value>Welcome {0}! Here are some suggestions to get started:</value>
+    <comment>{0} is publisher name</comment>
+  </data>
+  <data name="LetsImproveApps" xml:space="preserve">
+    <value>Welcome back {0}! Here are some resources to help you and your apps be more successful:</value>
+    <comment>{0} is publisher name</comment>
+  </data>
+  <data name="LetsPublishApps" xml:space="preserve">
+    <value>Welcome back, {0}! Here are some suggestions to get your app published:</value>
+    <comment>{0} is publisher name</comment>
+  </data>
+  <data name="MyApps" xml:space="preserve">
+    <value>Your apps</value>
+  </data>
+  <data name="NewApp" xml:space="preserve">
+    <value>New app</value>
+  </data>
+  <data name="OutOfSuggestions" xml:space="preserve">
+    <value>You've reviewed all of our customized suggestions. See &lt;a {0}&gt;all available offers&lt;/a&gt; or &lt;a {1}&gt;explore our docs&lt;/a&gt; while we look for more.</value>
+    <comment>{0} - Available Offers link
+{1} - Explore out docs link</comment>
+  </data>
+  <data name="Overview" xml:space="preserve">
+    <value>Overview</value>
+  </data>
+  <data name="PayoutAccount" xml:space="preserve">
+    <value>Payout account</value>
+  </data>
+  <data name="PayoutSummary" xml:space="preserve">
+    <value>Payout summary</value>
+  </data>
+  <data name="Points" xml:space="preserve">
+    <value>{0} Points</value>
+    <comment>{0} is the number of points you have</comment>
+  </data>
+  <data name="PostOnFacebook" xml:space="preserve">
+    <value>Post about your app on Facebook.</value>
+  </data>
+  <data name="PricingAndAvailabilityContent" xml:space="preserve">
+    <value>Determine how much your app will cost, whether you'll offer a free trial, and how, when, and where it will be available to customers.</value>
+  </data>
+  <data name="PricingAndAvailabilityTitle" xml:space="preserve">
+    <value>Set pricing and availability</value>
+  </data>
+  <data name="PromoteWithAdsContent" xml:space="preserve">
+    <value>Create an ad campaign using the Dev Center dashboard to help promote your app and grow your app's user base.</value>
+  </data>
+  <data name="PromoteWithAdsTitle" xml:space="preserve">
+    <value>Promote your app with ads</value>
+  </data>
+  <data name="RespondToReviewsContent" xml:space="preserve">
+    <value>Respond directly to reviews of your app to let customers know you're listening to their feedback.</value>
+  </data>
+  <data name="RespondToReviewsTitle" xml:space="preserve">
+    <value>Respond to customer reviews</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Submission_Status_FailedCertification" xml:space="preserve">
+    <value>Attention needed</value>
+  </data>
+  <data name="Submission_Status_InCertification" xml:space="preserve">
+    <value>In certification</value>
+  </data>
+  <data name="Submission_Status_InProgress" xml:space="preserve">
+    <value>In progress</value>
+  </data>
+  <data name="Submission_Status_InTheStore" xml:space="preserve">
+    <value>In the Store</value>
+  </data>
+  <data name="Submission_Status_NotForSale" xml:space="preserve">
+    <value>Not for sale</value>
+  </data>
+  <data name="Submission_Status_Not_Started" xml:space="preserve">
+    <value>Not started</value>
+  </data>
+  <data name="Submission_Status_UpdateInCertification" xml:space="preserve">
+    <value>In the Store. Update in certification</value>
+  </data>
+  <data name="Submission_Status_UpdateInProgress" xml:space="preserve">
+    <value>In the Store. Update in progress</value>
+  </data>
+  <data name="Submission_Status_UpdateWaitingToBeReleased" xml:space="preserve">
+    <value>In the Store. Update waiting to be released</value>
+  </data>
+  <data name="Submission_Status_WaitingToBeReleased" xml:space="preserve">
+    <value>Waiting to be released</value>
+  </data>
+  <data name="TailoredHelp" xml:space="preserve">
+    <value>Help tailored to you</value>
+  </data>
+  <data name="TaxProfile" xml:space="preserve">
+    <value>Tax Profile</value>
+  </data>
+  <data name="TellUsWhy" xml:space="preserve">
+    <value>To better help you, please tell us why you've dismissed this suggestion</value>
+  </data>
+  <data name="ThanksForFeedback" xml:space="preserve">
+    <value>Thanks for your feedback!</value>
+  </data>
+  <data name="Timeout" xml:space="preserve">
+    <value>Something went wrong and we can’t provide customized suggestions right now. We’ll have more suggestions for you soon.</value>
+  </data>
+  <data name="TrendsContent" xml:space="preserve">
+    <value>Get the data you need to help plan your Windows development efforts, including what kinds of hardware customers are using to run Windows, and data about app and IAP purchases from the Store.</value>
+  </data>
+  <data name="TrendsTitle" xml:space="preserve">
+    <value>Windows and Store trends</value>
+  </data>
+  <data name="ViewAllApps" xml:space="preserve">
+    <value>View all apps</value>
+  </data>
+  <data name="WelcomeBack" xml:space="preserve">
+    <value>Welcome back {0}!</value>
+    <comment>{0} is publisher name</comment>
+  </data>
+  <data name="Windows10x10Content" xml:space="preserve">
+    <value>This blog series of blog posts showcases ways you can build better apps, reach more customers, and make more money.</value>
+  </data>
+  <data name="Windows10x10Title" xml:space="preserve">
+    <value>Windows 10 by 10 development series</value>
+  </data>
+  <data name="WindowsDevCenter" xml:space="preserve">
+    <value>Windows Dev Center</value>
+  </data>
+</root>
