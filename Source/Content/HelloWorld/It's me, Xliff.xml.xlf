@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="en-US" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="f1" original="9cac0af6-83fa-43f1-bfd5-484f4309f9a8.xml">
+    <unit id="u1">
+      <segment id="s1">
+        <source>The Microsoft .NET Framework 4.6.1 Language Pack contains localized resources for supported languages.</source>
+      </segment>
+      <segment id="s2">
+        <source>This update will install new .NET Framework 4.6.1 language packs for all supported languages that are installed on your computer.</source>
+      </segment>
+      <segment id="s3">
+        <source>After you install this update, you may have to restart your computer.</source>
+      </segment>
+    </unit>
+    <unit id="u2">
+      <originalData>
+        <data id="d1">&lt;noloc&gt;</data>
+        <data id="d2">&lt;/noloc&gt;</data>
+      </originalData>
+      <segment id="s1">
+        <source>Microsoft .NET Framework 4.6.1 Language Packs for <mrk id="mrk1" translate="no"><pc dataRefEnd="d2" dataRefStart="d1" dispEnd="&lt;/noloc&gt;" dispStart="&lt;noloc&gt;" canCopy="no" canDelete="no" id="span1">{{OperatingSystem}}</pc></mrk> for x64 (<mrk id="mrk2" translate="no"><pc dataRefEnd="d2" dataRefStart="d1" dispEnd="&lt;/noloc&gt;" dispStart="&lt;noloc&gt;" canCopy="no" canDelete="no" id="span2">{{KBNUM}}</pc></mrk>)</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AreaSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Area Related Information -->
+  <Name>Area_GitHub_XLF</Name>
+
+  <!-- Notification Settings -->
+  <NotificationSettings>
+    <!-- DON'T CHANGE "Android" for any other name unless it exists in TFS -->
+    <AreaPath>Touchdown_Test\TestArea\Test</AreaPath>
+    <IterationPath>Touchdown_Test</IterationPath>
+    <AssignTo>Linlin Cao</AssignTo>
+  </NotificationSettings>
+
+  <!-- File Storage -->
+  <FileStorageSettings>
+    <Git Name="GIT APP">
+      <GitUrl>https://github.com/entlocsa/Test-Repo.git</GitUrl>
+      <GitBranch>master</GitBranch>
+      <UserName>zh8NIsgfLPpWlM/0uh2dehU8bGzYCPYG17Z3D1AO7pdXbdd3M3TX45OlcvSrgajFWfovV1pb2tZsAxTd1GhDnG0uIaZ0Bv3Ak8iXZkHoCgwHKSICprq6K4qGVhgb6wlL6qm+e0f/2LnILn6YrnA3tiU+f0/hLI4R6T34+1LYOL0heG31x7SWlXliP64qSHLuMyhFiYDHv4q05FFnOjh0NL3OU/0UiDcHn3j9kCh4uUeVsoVHYDHlhvNsVne6rHmvtYJ0U0oUrDSJvjN49S8zt1dAk6J0ybShQE+V3ohiYcMvkhd1gKkzeaMr3OC3EciekZu1nvrK8BqQWOWyvn1VgQ==</UserName>
+      <Password>CTUztOH1hDVMdRzTWK3mVBc6DJI4KV5QGZyKNuwgTSDdJy47XeL28cZCrqWFXFI27bWgDLfqYKINVvIT6n5J4DntaiXpun/n9/oaDyo8r0ZZiNbjo+A2ycvtZcdUIdB0yXMfSefZ3fn4NKLi9UbxvWx/2KnOTM/gfDil+0/2cLGrD+AROMoYeK6vNkFOLbs0ook+aU6oIcMaxkpKPajn1Dq3j+6B/apvCYqvQzajUCuLkO49EB/+aR2xhR9I749Ggwu6WqvhFuKDdHRzOBObBG/PBym+5u4tNPNc6ZTzxLBD/HTfLcKt+ElbVi8iiibhPh6jQKgimcJHHReyo7WLgA==</Password>
+    </Git>
+  </FileStorageSettings>
+
+  <!-- File Storage -->
+  <FileStorageSettings>
+    <Tfs Name="GPE TFS">
+      <TpcUrl>http://vstfreshub:8080/tfs/GPE_Dev</TpcUrl>
+      <TeamProject>Touchdown_Test</TeamProject>
+    </Tfs>
+  </FileStorageSettings>
+
+  <!-- Parsing -->
+  <ParserSettings>
+    <None Name="None" />
+  </ParserSettings>
+
+  <!-- Localizable Files @SettingsPath@\Default\Default.lsconfig-->
+  <LocalizableFiles Parser="None" EmbeddedLss="None.lsconfig">
+    <LocalizableFile>
+      <SourceFile Language="en-US">
+        <RetrieveSource FileStorage="GIT APP">/Source/Content/HelloWorld/It's me, Xliff.xml.xlf</RetrieveSource>
+        <StoreSource FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/Content/default/xlf/HelloWorld/It's me, Xliff.xml.xlf</StoreSource>
+        <StoreLcg FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/Content/default/xlf/HelloWorld/It's me, Xliff.xml.xlf</StoreLcg>
+        <StoreLci FileStorage="GPE TFS">None</StoreLci>
+        <FabricLcg>.\default\xlf\HelloWorld\It's me, Xliff.xml.xlf</FabricLcg>
+      </SourceFile>
+      <TargetFiles>
+        <TargetFile Language="es-ES">
+          <StoreLcl FileStorage="GPE TFS">None</StoreLcl>
+          <HandbackLcl FileStorage="GIT APP">None</HandbackLcl>
+          <StoreLct FileStorage="GPE TFS">None</StoreLct>
+          <StoreTarget FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/Content/es-ES/xlf/HelloWorld/It's me, Xliff.xml.xlf</StoreTarget>
+          <HandbackTarget FileStorage="GIT APP">/Localization/Content/es-ES/xlf/HelloWorld/It's me, Xliff.xml.xlf</HandbackTarget>
+        </TargetFile>
+        <TargetFile Language="fr-FR">
+          <StoreLcl FileStorage="GPE TFS">None</StoreLcl>
+          <HandbackLcl FileStorage="GIT APP">None</HandbackLcl>
+          <StoreLct FileStorage="GPE TFS">None</StoreLct>
+          <StoreTarget FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/Content/fr-FR/xlf/HelloWorld/It's me, Xliff.xml.xlf</StoreTarget>
+          <HandbackTarget FileStorage="GIT APP">/Localization/Content/fr-FR/xlf/HelloWorld/It's me, Xliff.xml.xlf</HandbackTarget>
+        </TargetFile>
+        <TargetFile Language="it-IT">
+          <StoreLcl FileStorage="GPE TFS">None</StoreLcl>
+          <HandbackLcl FileStorage="GIT APP">None</HandbackLcl>
+          <StoreLct FileStorage="GPE TFS">None</StoreLct>
+          <StoreTarget FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/Content/it-IT/xlf/HelloWorld/It's me, Xliff.xml.xlf</StoreTarget>
+          <HandbackTarget FileStorage="GIT APP">/Localization/Content/it-IT/xlf/HelloWorld/It's me, Xliff.xml.xlf</HandbackTarget>
+        </TargetFile>
+      </TargetFiles>
+    </LocalizableFile>
+  </LocalizableFiles>
+</AreaSettings>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Project Related Information -->
+  <Name>iLoc_Git</Name>
+
+  <ReachSettings>
+    <ProjectID>2021</ProjectID>
+    <ProjectType>Content</ProjectType>
+    <BuildRootPath>\\winloc\Public\Workflow\Exercise\TouchDown\Reach\DCE_EngagementCloud_B</BuildRootPath>
+    <BuildFilePath>\\winloc\Public\Workflow\Exercise\TouchDown\Reach\DCE_EngagementCloud_B\Build.txt</BuildFilePath>
+  </ReachSettings>
+  <!-- Fabric Settings at a Project Level -->
+  <FabricSettings>
+    <BuildRootPath>\\localhost\Touchdown\Fabric\iLoc_Git</BuildRootPath>
+    <SourceEolFilePath></SourceEolFilePath>
+    <TargetEolFilePath>.\Logs\iLoc_Git_FabricEOL.xml</TargetEolFilePath>
+    <BuildFilePath>\\localhost\Touchdown\Fabric\iLoc_Git\Build.txt</BuildFilePath>
+    <GenerateBuildFile>true</GenerateBuildFile>
+  </FabricSettings>
+  <!-- Notification Settings -->
+  <NotificationSettings>
+    <TpcUrl>https://vstfreshubext.partners.extranet.microsoft.com:8443/tfs/GPE_Dev</TpcUrl>
+    <TeamProject>Touchdown_Test</TeamProject>
+    <AreaPath>Touchdown_Test\TestArea\Android</AreaPath>
+    <IterationPath>Touchdown_Test</IterationPath>
+    <AssignTo>Linlin Cao</AssignTo>
+  </NotificationSettings>
+
+  <!-- Areas Listing (i.e. this references all of our AreaSettings files by path which can be relative or absolute) -->
+  <Areas>
+    <Area TranslationSystem="Fabric">
+      <AreaSettingsFilePath>AreaSettings_VSOGit_SW.xml</AreaSettingsFilePath>
+      <FabricProjectName>VSOGit_SW</FabricProjectName>
+    </Area>
+    <Area TranslationSystem="Reach">
+      <AreaSettingsFilePath>AreaSettings_VSOGit_XLF.xml</AreaSettingsFilePath>
+      <FabricProjectName>VSOGit_XLF</FabricProjectName>
+    </Area>
+    <Area TranslationSystem="Fabric">
+      <AreaSettingsFilePath>AreaSettings_GitHub_SW.xml</AreaSettingsFilePath>
+      <FabricProjectName>GitHub_SW</FabricProjectName>
+    </Area>
+    <Area TranslationSystem="Reach">
+      <AreaSettingsFilePath>AreaSettings_GitHub_XLF.xml</AreaSettingsFilePath>
+      <FabricProjectName>GitHub_XLF</FabricProjectName>
+    </Area>
+  </Areas>
+</ProjectSettings>

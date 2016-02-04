@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AreaSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Area Related Information -->
+  <Name>Area_VSOGit_XLF</Name>
+
+  <!-- Notification Settings -->
+  <NotificationSettings>
+    <!-- DON'T CHANGE "Android" for any other name unless it exists in TFS -->
+    <AreaPath>Touchdown_Test\TestArea\Test</AreaPath>
+    <IterationPath>Touchdown_Test</IterationPath>
+    <AssignTo>Linlin Cao</AssignTo>
+  </NotificationSettings>
+
+  <!-- File Storage -->
+  <FileStorageSettings>
+    <Git Name="GIT APP">
+      <GitUrl>https://touchdowntest.visualstudio.com/DefaultCollection/_git/GIT_HO</GitUrl>
+      <GitBranch>master</GitBranch>
+      <UserName></UserName>
+      <Password>YI+plrfRcnTekHOUWbyHwi4wxl0urlgbZ/D8XmB14VjM1ubl+nCG+WE9MkUFmB/8Uuwa5HqFjgog2eoEm2V2BsJwp9m+ems3qEetGIH8uS4eAQNCD96Rxe/YDqPBzn1s+9BoIg6bZ+dKjvwW4CeEmHAS0r7uYg9kGWXD/y+o/c0BN/K8S0pxvIwl+kcRzRgLoESaZVzOZ3bGoOdrJ3Tl47Z4+0EnjEU7C0ifKAjy896XJ0XDfWTjrfi/L7bOnWHml8dIQuHEKUKKCucWoqCEasgUbvehVNQwj+MNx5evWfXCw5DytXavhoTYRt/POFXs341A87Eig92wmMJ7dbjBkA==</Password>
+    </Git>
+  </FileStorageSettings>
+
+  <!-- File Storage -->
+  <FileStorageSettings>
+    <Tfs Name="GPE TFS">
+      <TpcUrl>http://vstfreshub:8080/tfs/GPE_Dev</TpcUrl>
+      <TeamProject>Touchdown_Test</TeamProject>
+    </Tfs>
+  </FileStorageSettings>
+
+  <!-- Parsing -->
+  <ParserSettings>
+    <None Name="None" />
+  </ParserSettings>
+
+  <!-- Localizable Files @SettingsPath@\Default\Default.lsconfig-->
+  <LocalizableFiles Parser="None" EmbeddedLss="None.lsconfig">
+    <LocalizableFile>
+      <SourceFile Language="en-US">
+        <RetrieveSource FileStorage="GIT APP">/Source/Content/HelloWorld/It's me, Xliff.xml.xlf</RetrieveSource>
+        <StoreSource FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/Content/default/xlf/HelloWorld/It's me, Xliff.xml.xlf</StoreSource>
+        <StoreLcg FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/Content/default/xlf/HelloWorld/It's me, Xliff.xml.xlf</StoreLcg>
+        <StoreLci FileStorage="GPE TFS">None</StoreLci>
+        <FabricLcg>.\default\xlf\HelloWorld\It's me, Xliff.xml.xlf</FabricLcg>
+      </SourceFile>
+      <TargetFiles>
+        <TargetFile Language="es-ES">
+          <StoreLcl FileStorage="GPE TFS">None</StoreLcl>
+          <HandbackLcl FileStorage="GIT APP">None</HandbackLcl>
+          <StoreLct FileStorage="GPE TFS">None</StoreLct>
+          <StoreTarget FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/Content/es-ES/xlf/HelloWorld/It's me, Xliff.xml.xlf</StoreTarget>
+          <HandbackTarget FileStorage="GIT APP">/Localization/Content/es-ES/xlf/HelloWorld/It's me, Xliff.xml.xlf</HandbackTarget>
+        </TargetFile>
+        <TargetFile Language="fr-FR">
+          <StoreLcl FileStorage="GPE TFS">None</StoreLcl>
+          <HandbackLcl FileStorage="GIT APP">None</HandbackLcl>
+          <StoreLct FileStorage="GPE TFS">None</StoreLct>
+          <StoreTarget FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/Content/fr-FR/xlf/HelloWorld/It's me, Xliff.xml.xlf</StoreTarget>
+          <HandbackTarget FileStorage="GIT APP">/Localization/Content/fr-FR/xlf/HelloWorld/It's me, Xliff.xml.xlf</HandbackTarget>
+        </TargetFile>
+        <TargetFile Language="it-IT">
+          <StoreLcl FileStorage="GPE TFS">None</StoreLcl>
+          <HandbackLcl FileStorage="GIT APP">None</HandbackLcl>
+          <StoreLct FileStorage="GPE TFS">None</StoreLct>
+          <StoreTarget FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/Content/it-IT/xlf/HelloWorld/It's me, Xliff.xml.xlf</StoreTarget>
+          <HandbackTarget FileStorage="GIT APP">/Localization/Content/it-IT/xlf/HelloWorld/It's me, Xliff.xml.xlf</HandbackTarget>
+        </TargetFile>
+      </TargetFiles>
+    </LocalizableFile>
+  </LocalizableFiles>
+</AreaSettings>
