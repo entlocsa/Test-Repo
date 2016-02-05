@@ -4,12 +4,14 @@
   <!-- Project Related Information -->
   <Name>iLoc_Git</Name>
 
+  <!-- Reach Settings at a Project Level -->
   <ReachSettings>
     <ProjectID>2021</ProjectID>
     <ProjectType>Content</ProjectType>
-    <BuildRootPath>\\winloc\Public\Workflow\Exercise\TouchDown\Reach\DCE_EngagementCloud_B</BuildRootPath>
-    <BuildFilePath>\\winloc\Public\Workflow\Exercise\TouchDown\Reach\DCE_EngagementCloud_B\Build.txt</BuildFilePath>
+    <BuildRootPath>\\localhost\Touchdown\Reach\iLoc_Git</BuildRootPath>
+    <BuildFilePath>\\localhost\Touchdown\Reach\iLoc_Git\Build.txt</BuildFilePath>
   </ReachSettings>
+
   <!-- Fabric Settings at a Project Level -->
   <FabricSettings>
     <BuildRootPath>\\localhost\Touchdown\Fabric\iLoc_Git</BuildRootPath>
@@ -18,11 +20,12 @@
     <BuildFilePath>\\localhost\Touchdown\Fabric\iLoc_Git\Build.txt</BuildFilePath>
     <GenerateBuildFile>true</GenerateBuildFile>
   </FabricSettings>
+
   <!-- Notification Settings -->
   <NotificationSettings>
-    <TpcUrl>https://vstfreshubext.partners.extranet.microsoft.com:8443/tfs/GPE_Dev</TpcUrl>
+    <TpcUrl>http://vstfreshub:8080/tfs/GPE_Dev</TpcUrl>
     <TeamProject>Touchdown_Test</TeamProject>
-    <AreaPath>Touchdown_Test\TestArea\Android</AreaPath>
+    <AreaPath>Touchdown_Test\Lica</AreaPath>
     <IterationPath>Touchdown_Test</IterationPath>
     <AssignTo>Linlin Cao</AssignTo>
   </NotificationSettings>

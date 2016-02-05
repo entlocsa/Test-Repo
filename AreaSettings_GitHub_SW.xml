@@ -7,7 +7,7 @@
   <!-- Notification Settings -->
   <NotificationSettings>
     <!-- DON'T CHANGE "Android" for any other name unless it exists in TFS -->
-    <AreaPath>Touchdown_Test\TestArea\Test</AreaPath>
+    <AreaPath>Touchdown_Test\Lica\GitHB</AreaPath>
     <IterationPath>Touchdown_Test</IterationPath>
     <AssignTo>Linlin Cao</AssignTo>
   </NotificationSettings>
@@ -25,7 +25,7 @@
   <!-- File Storage -->
   <FileStorageSettings>
     <Tfs Name="GPE TFS">
-      <TpcUrl>https://vstfreshubext.partners.extranet.microsoft.com:8443/tfs/GPE_Dev</TpcUrl>
+      <TpcUrl>http://vstfreshub:8080/tfs/GPE_Dev</TpcUrl>
       <TeamProject>Touchdown_Test</TeamProject>
     </Tfs>
   </FileStorageSettings>
@@ -42,25 +42,24 @@
         <RetrieveSource FileStorage="GIT APP">/Source/SW/Overview/OverviewResource.resx</RetrieveSource>
         <StoreSource FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/SW/Default/Bin/Overview/OverviewResource.resx</StoreSource>
         <StoreLcg FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/SW/Default/Lcg/Overview/OverviewResource.resx.lcg</StoreLcg>
-        <StoreLci FileStorage="GPE TFS">None</StoreLci>
-        <FabricLcg>.\Eng\Overview\OverviewResource.resx.lcg</FabricLcg>
+        <BuildPath>.\Eng\Overview\OverviewResource.resx.lcg</BuildPath>
       </SourceFile>
       <TargetFiles>
-        <TargetFile Language="es-ES">
+        <TargetFile Language="es-ES" IsAutoHandback="true">
           <StoreLcl FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/SW/es-ES/LCL/Overview/OverviewResource.resx.lcl</StoreLcl>
           <HandbackLcl FileStorage="GIT APP">/Localization/SW/es-ES/LCL/Overview/OverviewResource.resx.lcl</HandbackLcl>
           <StoreLct FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/SW/es-ES/LCT/Overview/OverviewResource.resx.lct</StoreLct>
           <StoreTarget FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/SW/Tgt/Overview/OverviewResource.es-ES.resx</StoreTarget>
           <HandbackTarget FileStorage="GIT APP">/Localization/SW/Tgt/es-ES/Overview/OverviewResource.resx</HandbackTarget>
         </TargetFile>
-        <TargetFile Language="fr-FR">
+        <TargetFile Language="fr-FR" IsAutoHandback="true">
           <StoreLcl FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/SW/fr-FR/LCL/Overview/OverviewResource.resx.lcl</StoreLcl>
           <HandbackLcl FileStorage="GIT APP">/Localization/SW/fr-FR/Lcl/Overview/OverviewResource.resx.lcl</HandbackLcl>
           <StoreLct FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/SW/fr-FR/LCT/Overview/OverviewResource.resx.lct</StoreLct>
           <StoreTarget FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/SW/Tgt/Overview/OverviewResource.fr-FR.resx</StoreTarget>
           <HandbackTarget FileStorage="GIT APP">/Localization/SW/Tgt/Overview/OverviewResource.fr-FR.resx</HandbackTarget>
         </TargetFile>
-        <TargetFile Language="it-IT">
+        <TargetFile Language="it-IT" IsAutoHandback="true">
           <StoreLcl FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/SW/it-IT/LCL/Overview/OverviewResource.resx.lcl</StoreLcl>
           <HandbackLcl FileStorage="GIT APP">/Localization/SW/it-IT/LCL/Overview/OverviewResource.resx.lcl</HandbackLcl>
           <StoreLct FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/SW/it-IT/LCT/Overview/OverviewResource.resx.lct</StoreLct>

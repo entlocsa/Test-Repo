@@ -7,7 +7,7 @@
   <!-- Notification Settings -->
   <NotificationSettings>
     <!-- DON'T CHANGE "Android" for any other name unless it exists in TFS -->
-    <AreaPath>Touchdown_Test\TestArea\Test</AreaPath>
+    <AreaPath>Touchdown_Test\Lica\GitHB</AreaPath>
     <IterationPath>Touchdown_Test</IterationPath>
     <AssignTo>Linlin Cao</AssignTo>
   </NotificationSettings>
@@ -42,25 +42,24 @@
         <RetrieveSource FileStorage="GIT APP">/Source/Content/HelloWorld/It's me, Xliff.xml.xlf</RetrieveSource>
         <StoreSource FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/Content/default/xlf/HelloWorld/It's me, Xliff.xml.xlf</StoreSource>
         <StoreLcg FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/Content/default/xlf/HelloWorld/It's me, Xliff.xml.xlf</StoreLcg>
-        <StoreLci FileStorage="GPE TFS">None</StoreLci>
-        <FabricLcg>.\default\xlf\HelloWorld\It's me, Xliff.xml.xlf</FabricLcg>
+        <BuildPath>.\default\xlf\HelloWorld\It's me, Xliff.xml.xlf</BuildPath>
       </SourceFile>
       <TargetFiles>
-        <TargetFile Language="es-ES">
+        <TargetFile Language="es-ES" IsAutoHandback="true">
           <StoreLcl FileStorage="GPE TFS">None</StoreLcl>
           <HandbackLcl FileStorage="GIT APP">None</HandbackLcl>
           <StoreLct FileStorage="GPE TFS">None</StoreLct>
           <StoreTarget FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/Content/es-ES/xlf/HelloWorld/It's me, Xliff.xml.xlf</StoreTarget>
           <HandbackTarget FileStorage="GIT APP">/Localization/Content/es-ES/xlf/HelloWorld/It's me, Xliff.xml.xlf</HandbackTarget>
         </TargetFile>
-        <TargetFile Language="fr-FR">
+        <TargetFile Language="fr-FR" IsAutoHandback="true">
           <StoreLcl FileStorage="GPE TFS">None</StoreLcl>
           <HandbackLcl FileStorage="GIT APP">None</HandbackLcl>
           <StoreLct FileStorage="GPE TFS">None</StoreLct>
           <StoreTarget FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/Content/fr-FR/xlf/HelloWorld/It's me, Xliff.xml.xlf</StoreTarget>
           <HandbackTarget FileStorage="GIT APP">/Localization/Content/fr-FR/xlf/HelloWorld/It's me, Xliff.xml.xlf</HandbackTarget>
         </TargetFile>
-        <TargetFile Language="it-IT">
+        <TargetFile Language="it-IT" IsAutoHandback="true">
           <StoreLcl FileStorage="GPE TFS">None</StoreLcl>
           <HandbackLcl FileStorage="GIT APP">None</HandbackLcl>
           <StoreLct FileStorage="GPE TFS">None</StoreLct>
