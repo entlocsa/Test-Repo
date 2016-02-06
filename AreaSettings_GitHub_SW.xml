@@ -50,7 +50,7 @@
           <HandbackLcl FileStorage="GIT APP">/Localization/SW/es-ES/LCL/Overview/OverviewResource.resx.lcl</HandbackLcl>
           <StoreLct FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/SW/es-ES/LCT/Overview/OverviewResource.resx.lct</StoreLct>
           <StoreTarget FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/SW/Tgt/Overview/OverviewResource.es-ES.resx</StoreTarget>
-          <HandbackTarget FileStorage="GIT APP">/Localization/SW/Tgt/es-ES/Overview/OverviewResource.resx</HandbackTarget>
+          <HandbackTarget FileStorage="GIT APP">/Localization/SW/Tgt/Overview/OverviewResource.es-ES.resx</HandbackTarget>
         </TargetFile>
         <TargetFile Language="fr-FR" IsAutoHandback="true">
           <StoreLcl FileStorage="GPE TFS">$/Touchdown_Test/iLoc_Git/SW/fr-FR/LCL/Overview/OverviewResource.resx.lcl</StoreLcl>
