@@ -123,4 +123,7 @@
   <data name="AdvertisingPerformance" xml:space="preserve">
     <value>Advertising performance es-ES</value>
   </data>
+  <data name="AfterPublish" xml:space="preserve">
+    <value>After you publish apps to the Store, this page will show you metrics on how your apps are doing, payout info, and more. es-ES</value>
+  </data>
 </root>
