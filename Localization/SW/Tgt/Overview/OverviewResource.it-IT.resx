@@ -120,4 +120,7 @@
   <data name="AccountSettings" xml:space="preserve">
     <value>Account settings it-IT</value>
   </data>
+  <data name="AdvertisingPerformance" xml:space="preserve">
+    <value>Advertising performance it-IT</value>
+  </data>
 </root>
