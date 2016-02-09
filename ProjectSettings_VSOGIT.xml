@@ -30,7 +30,7 @@
     <AssignTo>Linlin Cao</AssignTo>
   </NotificationSettings>
 
-  <!-- Areas Listing (i.e. this references all of our AreaSettings files by path which can be relative or absolute) -->
+  <!-- Areas Listing (i.e.     this references all of our AreaSettings files by path which can be relative or absolute) -->
   <Areas>
     <Area TranslationSystem="Fabric">
       <AreaSettingsFilePath>AreaSettings_VSOGit_SW.xml</AreaSettingsFilePath>
