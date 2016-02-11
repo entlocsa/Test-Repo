@@ -138,4 +138,7 @@
   <data name="AnalyticsReportTitle" xml:space="preserve">
     <value>Analytics report it-IT</value>
   </data>
+  <data name="App" xml:space="preserve">
+    <value>App it-IT</value>
+  </data>
 </root>

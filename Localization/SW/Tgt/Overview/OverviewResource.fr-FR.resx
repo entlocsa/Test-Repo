@@ -135,4 +135,10 @@
   <data name="AnalyticsReportContent" xml:space="preserve">
     <value>View detailed analytics for your apps in the Windows Dev Center dashboard. fr-FR</value>
   </data>
+  <data name="AnalyticsReportTitle" xml:space="preserve">
+    <value>Analytics report fr-FR</value>
+  </data>
+  <data name="App" xml:space="preserve">
+    <value>App fr-FR</value>
+  </data>
 </root>
