@@ -141,4 +141,7 @@
   <data name="App" xml:space="preserve">
     <value>App fr-FR</value>
   </data>
+  <data name="AppDevKnowledgeBase" xml:space="preserve">
+    <value>App development knowledge base fr-FR</value>
+  </data>
 </root>
