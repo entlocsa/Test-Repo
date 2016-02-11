@@ -15,7 +15,7 @@
   <!-- File Storage -->
   <FileStorageSettings>
     <Git Name="GIT APP">
-      <GitUrl>https://github.com/entlocsa/Test-Repo.git</GitUrl>
+      <GitUrl>https://www.github.com/entlocsa/Test-Repo.git</GitUrl>
       <EMail>cll_llc80@hotmail.com</EMail>
       <GitBranch>master</GitBranch>
       <UserName>LinlinCao</UserName>
