@@ -117,31 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AccountSettings" xml:space="preserve">
-    <value>Account settings it-IT</value>
-  </data>
-  <data name="AdvertisingPerformance" xml:space="preserve">
-    <value>Advertising performance it-IT</value>
-  </data>
-  <data name="AfterPublish" xml:space="preserve">
-    <value>After you publish apps to the Store, this page will show you metrics on how your apps are doing, payout info, and more. it-IT</value>
-  </data>
-  <data name="AlreadyDone" xml:space="preserve">
-    <value>I've done this already it-IT</value>
-  </data>
-  <data name="AnalyticsEmpty" xml:space="preserve">
-    <value>After you publish an app, you’ll see analytics on this page. it-IT</value>
-  </data>
-  <data name="AnalyticsReportContent" xml:space="preserve">
-    <value>View detailed analytics for your apps in the Windows Dev Center dashboard. it-IT</value>
-  </data>
-  <data name="AnalyticsReportTitle" xml:space="preserve">
-    <value>Analytics report it-IT</value>
-  </data>
-  <data name="App" xml:space="preserve">
-    <value>App it-IT</value>
-  </data>
-  <data name="AppDevKnowledgeBase" xml:space="preserve">
-    <value>App development knowledge base it-IT</value>
-  </data>
 </root>
